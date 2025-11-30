@@ -4,6 +4,7 @@ import { CreditCard } from "@medusajs/icons"
 import Ideal from "@modules/common/icons/ideal"
 import Bancontact from "@modules/common/icons/bancontact"
 import PayPal from "@modules/common/icons/paypal"
+import QPay from "@modules/common/icons/qpay"
 
 /* Map of payment provider_id to their title and icon. Add in any payment providers you want to use. */
 export const paymentInfoMap: Record<
@@ -29,6 +30,10 @@ export const paymentInfoMap: Record<
   pp_system_default: {
     title: "Manual Payment",
     icon: <CreditCard />,
+  },
+  "pp_qpay-payment_qpay-payment": {
+    title: "QPay",
+    icon: <QPay />,
   },
   // Add more payment providers here
 }
@@ -58,6 +63,7 @@ export const noDivisionCurrencies = [
   "gnf",
   "kmf",
   "mga",
+  "mnt",
   "rwf",
   "xpf",
   "htg",
