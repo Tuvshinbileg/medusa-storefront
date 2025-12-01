@@ -119,7 +119,7 @@ export default async function Footer() {
           </div>
         </div>
         <div className="mt-12 border-t border-border-light dark:border-border-dark pt-8 text-center text-sm text-text-light-secondary dark:text-dark-secondary">
-          <p>© 2025 Apparel Co. All Rights Reserved.</p>
+          <p>© 2024 Apparel Co. All Rights Reserved.</p>
         </div>
       </div>
     </footer>
